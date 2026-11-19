@@ -12,14 +12,15 @@ Application Python permettant de collecter les données météorologiques actuel
 ## Arborescence du projet
 
 ```text
-observatoire_meteo/
+Projet_Fil_Rouge/
 ├── db/
 │   └── meteo.db         # Base de données SQLite (générée automatiquement)
-├── database.py          # Connexion SQLite, création des tables et initialisation de Saint-Quentin
+├── database.py          # Connexion SQLite, création des tables et initialisation de la ville Saint-Quentin
 ├── models.py            # Modèles ORM SQLModel (tables) et schémas de validation Pydantic
 ├── pipeline.py          # Script d'ingestion des données météo vers la base
 ├── main.py              # Application FastAPI et définition des routes
-└── README.md            # Documentation du projet
+├── README.md            # Documentation du projet
+└── requirements.txt     # Dépendances à installer
 ```
 
 ## Installation
